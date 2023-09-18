@@ -1,0 +1,20 @@
+*** Confusion matrix ***
+
+[[93 21 15 29]
+ [21  8 15 11]
+ [23  3  4 12]
+ [22  8 10  9]]
+
+
+*** Classification report *** 
+
+              precision    recall  f1-score   support
+
+          TD       0.58      0.59      0.59       158
+        DEPR       0.20      0.15      0.17        55
+         ASD       0.09      0.10      0.09        42
+        SCHZ       0.15      0.18      0.16        49
+
+    accuracy                           0.38       304
+   macro avg       0.26      0.25      0.25       304
+weighted avg       0.38      0.38      0.37       304

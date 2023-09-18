@@ -1,0 +1,10 @@
+__pycache__/*
+wandb/*
+logs/*/archive/*
+logs/transformers/*
+models/*
+.DS_Store
+.ipynb_checkpoints/*
+.venv*
+*.ckpt
+data/*
