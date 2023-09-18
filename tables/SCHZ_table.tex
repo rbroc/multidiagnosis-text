@@ -1,0 +1,50 @@
+\begin{tabular}{rc||ccc}
+\toprule
+\multicolumn{1}{c}{}  & \multicolumn{1}{c}{} & \multicolumn{3}{c}{F1 - SCHZ} \\
+                                        &&      Test & Validation & Train \\
+\midrule
+\hline
+                      Baseline Ensemble & ensemble &     0.833 &      0.800 & 0.887 \\
+                         TF-IDF, 1000-d &     text &     0.833 &      0.600 & 0.816 \\
+              Dependency distance (std) &     text &     0.800 &      0.400 & 0.613 \\
+                                Alvenir &    audio &     0.769 &      0.533 & 0.619 \\
+                            Gjallarhorn &    audio &     0.769 &      0.462 & 0.554 \\
+                            XLM-RoBERTa &     text &     0.750 &      0.667 & 0.984 \\
+                             ScandiBERT &     text &     0.727 &      0.500 & 1.000 \\
+                               X-Vector &    audio &     0.727 &      0.800 & 0.873 \\
+                   Transformer Ensemble & ensemble &     0.727 &      0.500 & 0.989 \\
+                       Number sentences &     text &     0.714 &      0.444 & 0.519 \\
+                      Sentence polarity &     text &     0.667 &      0.667 & 0.641 \\
+             Syllables per token (mean) &     text &     0.667 &      0.667 & 0.633 \\
+                                  Dummy & baseline &     0.667 &      0.667 & 0.641 \\
+             Dependency distance (mean) &     text &     0.667 &      0.545 & 0.568 \\
+                                ComParE &    audio &     0.667 &      0.667 & 0.639 \\
+                                  XLS-R &    audio &     0.667 &      0.667 & 0.639 \\
+Proportion Adjacent Dependencies (mean) &     text &     0.615 &      0.667 & 0.652 \\
+                       All descriptives &     text &     0.600 &      0.571 & 0.626 \\
+                                  MFCCs &    audio &     0.600 &      0.833 & 0.798 \\
+                                eGeMAPS &    audio &     0.571 &      0.429 & 0.654 \\
+                  Sentence length (std) &     text &     0.571 &      0.615 & 0.625 \\
+                        TF-IDF, 10000-d &     text &     0.545 &      0.727 & 0.897 \\
+                Proportion unique okens &     text &     0.545 &      0.462 & 0.643 \\
+                               FastText &     text &     0.545 &      0.667 & 0.750 \\
+                 Sentence length (mean) &     text &     0.545 &      0.727 & 0.642 \\
+                    Flesch reading ease &     text &     0.545 &      0.500 & 0.656 \\
+              Syllables per token (std) &     text &     0.545 &      0.615 & 0.578 \\
+                          TF-IDF, 100-d &     text &     0.545 &      0.444 & 0.660 \\
+                                Ælectra &     text &     0.500 &      0.727 & 0.793 \\
+            Automated readability index &     text &     0.500 &      0.769 & 0.705 \\
+                   Number of characters &     text &     0.500 &      0.615 & 0.641 \\
+                   Flesch-Kincaid grade &     text &     0.500 &      0.600 & 0.695 \\
+                      Mean token length &     text &     0.462 &      0.545 & 0.641 \\
+                   Number unique tokens &     text &     0.444 &      0.545 & 0.565 \\
+                       Number of tokens &     text &     0.400 &      0.500 & 0.560 \\
+                      Gunning Fog index &     text &     0.400 &      0.545 & 0.741 \\
+                     Token length (std) &     text &     0.364 &      0.462 & 0.750 \\
+                     Coleman-Liau index &     text &     0.364 &      0.545 & 0.685 \\
+                                    RIX &     text &     0.364 &      0.727 & 0.653 \\
+                   Sentence Transformer &     text &     0.250 &      0.500 & 0.578 \\
+ Proportion Adjacent Dependencies (std) &     text &     0.250 &      0.600 & 0.437 \\
+                                    Lix &     text &     0.200 &      0.667 & 0.674 \\
+\bottomrule
+\end{tabular}
